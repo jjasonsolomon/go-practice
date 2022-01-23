@@ -25,6 +25,12 @@ func main() {
 		total := iModule + clip
 		fmt.Println("Total:-", total)
 
+		//pointer
+		fmt.Println("The memory address of course is", &course)
+
+		var ptr *string = &course
+		fmt.Println("The value of course is", *ptr, "and the address is", ptr)
+
 	}
 
 }
