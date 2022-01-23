@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"reflect"
 	"strconv"
 )
 
 func main() {
 
-	name := "Jason"
+	name := os.Getenv("USER")
 	course := "Go fundamentals"
 	module := "4"
 	clip := 2
