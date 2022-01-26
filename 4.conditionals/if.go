@@ -12,9 +12,11 @@ func main() {
 	//Simple Initialisation
 	if a, b := 10, 20; a > b {
 		fmt.Println("a is greater than b")
+		
 	} else if a == b {
 		fmt.Println("a and b are equal")
 	} else {
+		
 		fmt.Println("b is greater a")
 	}
 
