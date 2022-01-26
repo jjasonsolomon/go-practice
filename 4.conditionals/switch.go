@@ -6,11 +6,11 @@ import (
 
 func main() {
 
-	switch 3 {
+	switch 1 {
 
 	case 1:
-
 		fmt.Println("Value is 1")
+		fallthrough
 	case 2:
 		fmt.Println("Value is 2")
 	case 3:
