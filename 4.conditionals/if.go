@@ -6,10 +6,11 @@ import (
 
 func main() {
 
-	a := 10
-	b := 20
+	//a := 10
+	//b := 20
 
-	if a > b {
+	//Simple Initialisation
+	if a, b := 10, 20; a > b {
 		fmt.Println("a is greater than b")
 	} else if a == b {
 		fmt.Println("a and b are equal")
