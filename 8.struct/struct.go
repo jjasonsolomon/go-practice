@@ -20,4 +20,14 @@ func main() {
 
 	fmt.Println(goFundamentals)
 
+	//To print only the author
+
+	fmt.Println("Author of Go Fundamentals is", goFundamentals.author)
+
+	//changing the rating
+
+	goFundamentals.rating = 5
+
+	fmt.Println("Current course rating is", goFundamentals.rating)
+
 }
